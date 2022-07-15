@@ -1,0 +1,7 @@
+{
+  "name": "iptv",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
