@@ -1,0 +1,11 @@
+.search-main-card {
+    overflow-y: scroll;
+    max-width: 800px;
+  }
+  
+  @media (min-width: 820px) {
+    .search-main-card {
+      margin: 10px auto;
+    }
+  }
+  

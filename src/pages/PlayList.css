@@ -1,0 +1,27 @@
+.page-main-card {
+  min-height: calc(100vh - 56px - 20px);
+  overflow-y: scroll;
+  max-width: 800px;
+}
+
+.page-main-card .thumb-nail-img {
+  object-fit: contain;
+}
+
+.page-main-card .status-badge {
+  min-width: 48px;
+}
+
+.page-main-card .list-md {
+  padding: 0;
+}
+
+.page-main-card .infinite-loading {
+  margin-bottom: 0;
+}
+
+@media (min-width: 820px) {
+  .page-main-card {
+    margin: 10px auto;
+  }
+}
