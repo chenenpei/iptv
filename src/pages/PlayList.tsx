@@ -25,7 +25,7 @@ import { useSearchStore } from "../store";
 import ConnectStatus from "../components/ConnectStatus";
 
 const PlayList: React.FC = () => {
-  const CHINA_SOURCE = "https://live.fanmingming.com/tv/m3u/global.m3u";
+  const CHINA_SOURCE = "https://iptv-org.github.io/iptv/countries/cn.m3u";
 
   const [list, setList] = useState<PlaylistItem[]>([]);
   const [data, setData] = useState<PlaylistItem[]>([]);
